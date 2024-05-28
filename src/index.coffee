@@ -6,8 +6,6 @@ Message =
     ( event ) ->
       messages ?= await Registry.get "messages"
       if event.detail?
-        messages.queue.enqueue
-          content: event.detail.message
-          type: "failure"
+        messages.queue.enqueue event.detail
 
 export default Message
