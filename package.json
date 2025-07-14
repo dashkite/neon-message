@@ -1,6 +1,6 @@
 {
   "name": "@dashkite/neon-message",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Neon combinators for display status messages",
   "keywords": [],
   "homepage": "https://github.com/dashkite/neon-message#readme",
